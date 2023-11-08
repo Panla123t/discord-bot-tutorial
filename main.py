@@ -14,7 +14,7 @@ TOKEN = os.getenv('TOKEN')
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix='!',intents=intents) 
 
-
+"""This is update 1"""
 @bot.event
 async def on_ready():
     print(f"Logged in as {bot.user}")
